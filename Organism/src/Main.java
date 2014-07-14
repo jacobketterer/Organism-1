@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Main {
 
-  final static int LIMIT = 100;
+  final static int LIMIT = 10;
   
   static HashSet<Cell> allCells = new HashSet<Cell>();
   
