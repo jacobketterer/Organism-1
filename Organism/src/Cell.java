@@ -64,7 +64,7 @@ public abstract class Cell {
   */
   
   public void feed(int food) {
-    this.food = food;
+    this.food += food;
   }
   
   /**

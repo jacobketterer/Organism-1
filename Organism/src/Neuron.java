@@ -19,8 +19,8 @@ public class Neuron extends Cell {
   
   /**
    * ACTION: Gains 50 potential and loses 50 food, distributes potential to children
+   * and loses 100 potential for refractory period
    * THRESHOLD: 20
-   * USES:      100
    */
   
   @Override
