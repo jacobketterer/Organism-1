@@ -7,7 +7,7 @@ public class Main {
   static HashSet<Cell> allCells = new HashSet<Cell>();
   
   public static void main(String[] args) {
-    CoordinatorCell c = ringConfig(60);
+    CoordinatorCell c = ringConfig(90);
     for (int i = 0; i < LIMIT; i++) {
       c.excite(20);
       for (Cell x : allCells) {
